@@ -18,4 +18,4 @@ is generated and sent to the quality department. Who the email is sent to is det
 Both applications are written using...
 * Java
 * Communication with an Oracle SQL Database using OJDBC 8
-* (MailBot only) Emails are generated using MailX
+* (MailBot only) Emails are generated using JavaX.Mail

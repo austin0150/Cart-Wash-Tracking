@@ -11,7 +11,7 @@ scanned. When the barcode is scanned, the ID is updated in an Oracle SQL databas
 time limit in between washes. If a cart goes too long without being washed, an email is sent to the quality department, thats where
 MailBot comes in.
 
--MailBot is a seperate app that also runs on the Raspberry pi. MailBot is scheduled by the Pi to run once every morning at 7am.
+- MailBot is a seperate app that also runs on the Raspberry pi. MailBot is scheduled by the Pi to run once every morning at 7am.
 When the application runs, it checks the cart database to see if any carts are overdue for washing. If a cart is overdue, an email
 is generated and sent to the quality department. Who the email is sent to is determined by a table containing email addresses.
 
